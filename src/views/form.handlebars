@@ -1,0 +1,37 @@
+{{#if user}}
+    <h1>Bienvenido/a {{user}}</h1>
+    <a class="btn btn-primary" href="./logout">Cerrar Sesion</a>
+{{/if}}
+
+<form class="form-group col">
+        <label>Producto</label>
+        <input class="input" id="nombre" type="text" name="producto">
+        <label>Precio</label>
+        <input class="input" id="precio" type="number" name="precio">
+        <label>URL</label>
+        <input  class="input" id="url"  type="text" name="url">
+        <input type="submit" id="enviar" class="btn btn-primary" value="enviar">
+</form>
+
+{{#if productos}}
+<table class="table table-striped-columns">
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>URL</th>
+    </tr>
+    </thead>
+    <tbody id="detalleProducto">
+        {{#each productos}}
+            <tr>
+                <td>{{this.producto}}</td>
+                <td>{{this.precio}}</td>
+                <td><img src="{{this.url}}" alt="{{this.producto}}"> </td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{/if}}
+
+<a class="btn btn-primary" href="/chat">Chat</a>

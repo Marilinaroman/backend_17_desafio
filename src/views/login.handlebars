@@ -1,0 +1,13 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<h1>Inicie session</h1>
+<form class="form-group col" method="post" action="/api/login">
+        <label>Usuario</label>
+        <input class="input" id="userName" type="text" name="username">
+        <label>Password</label>
+        <input class="input" id="password" type="password" name="password">
+        <input type="submit" id="Iniciar Sesion" class="btn btn-primary" value="enviar">
+</form>
+<a class="btn btn-primary" href="./registro">Crear usuario</a>

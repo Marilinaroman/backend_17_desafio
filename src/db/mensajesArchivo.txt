@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "autor": {
+      "id": "maru@gmail.com",
+      "nombre": "marilina",
+      "edad": 29,
+      "alias": "maru",
+      "avatar": "algo"
+    },
+    "texto": "Holaaa"
+  },
+  {
+    "id": 2,
+    "autor": {
+      "id": "flor@gmail.com",
+      "nombre": "florencia",
+      "edad": 22,
+      "alias": "floppy",
+      "avatar": "algo"
+    },
+    "texto": "como estas?"
+  },
+  {
+    "id": 3,
+    "autor": {
+      "id": "juan@gmail.com",
+      "nombre": "juan",
+      "edad": 22,
+      "alias": "juan",
+      "avatar": "algo"
+    },
+    "texto": "bien, ustedes?"
+  },
+  {
+    "id": 4,
+    "autor": {
+      "id": "juan@gmail.com",
+      "nombre": "juan",
+      "edad": 22,
+      "alias": "juan",
+      "avatar": "algo"
+    },
+    "texto": "que hacen?"
+  },
+  {
+    "id": 5,
+    "autor": {
+      "id": "maru@gmail.com",
+      "nombre": "mar",
+      "edad": "22",
+      "alias": "mar",
+      "avatar": "mar"
+    },
+    "texto": "hola",
+    "hora": "2022-11-26T15:19:35.245Z"
+  }
+]
