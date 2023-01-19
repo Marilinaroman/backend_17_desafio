@@ -218,6 +218,9 @@ app.get('/api/logout',(req,res)=>{
 })
 
 // defino rutas
+app.use('/', (req,res)=>{
+    res.send('funciona')
+})
 
 app.use('/api', router);
 app.use('/api/info', routerInfo);
