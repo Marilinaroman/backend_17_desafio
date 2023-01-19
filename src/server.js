@@ -218,7 +218,7 @@ app.get('/api/logout',(req,res)=>{
 })
 
 // defino rutas
-app.use('/', (req,res)=>{
+app.use('/home', (req,res)=>{
     res.send('funciona')
 })
 
